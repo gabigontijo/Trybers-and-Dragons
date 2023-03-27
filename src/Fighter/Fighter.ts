@@ -1,7 +1,7 @@
 import Energy from '../Energy';
-import SimpleFihter from './SimpleFighter';
+import SimpleFighter from './SimpleFighter';
 
-export default interface Fighter extends SimpleFihter {
+export default interface Fighter extends SimpleFighter {
   defense: number;
   energy?: Energy;
   special?(enemy: Fighter):void;
